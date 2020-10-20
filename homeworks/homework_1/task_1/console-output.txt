@@ -1,0 +1,17 @@
+"C:\Users\  home\.jdks\openjdk-15\bin\java.exe" -Djline.terminal=NONE "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\lib\idea_rt.jar=63872:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Scala\SbtExampleProject2\target\scala-2.13\classes;C:\Users\  home\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar;C:\Users\  home\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar;C:\Users\  home\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3-sources.jar;C:\Users\  home\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3-sources.jar;C:\Users\  home\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar;C:\Users\  home\AppData\Roaming\JetBrains\IntelliJIdea2020.2\plugins\Scala\lib\runners.jar" scala.tools.nsc.MainGenericRunner -usejavacp -Xjline:off
+Welcome to Scala 2.13.3 (OpenJDK 64-Bit Server VM, Java 15).
+Type in expressions for evaluation. Or try :help.
+
+scala> println ("Hello Scala! This is Anastasiya Veyngardt")
+Hello Scala! This is Anastasiya Veyngardt
+
+scala> println ("Hola Scala! This is Anastasiya Veyngardt")
+Hola Scala! This is Anastasiya Veyngardt
+
+scala> println ("Hello Scala! This is ayisatsanA tdragnyeV")
+Hello Scala! This is ayisatsanA tdragnyeV
+
+scala> println ("Hola Scala! This is ayisatsanA tdragnyeV")
+Hola Scala! This is ayisatsanA tdragnyeV
+
+scala> 
