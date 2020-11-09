@@ -2,6 +2,7 @@ import utest._
 
 object Test extends TestSuite {
     val tests = Tests {
+
         'test_createTable - {
             val table = new Table(3, 3)
             for (i <- 0 until 9) {
@@ -12,6 +13,7 @@ object Test extends TestSuite {
             assert(table.getCell(9, 8).map(_.toString) == None)
             assert(table.getCell(8, 9).map(_.toString) == None)
         }
+
         'test_numberCell - {
             val table = new Table(2, 2)
             val cellInt00 = new NumberCell(5)
@@ -23,6 +25,7 @@ object Test extends TestSuite {
             assert(table.getCell(1, 0).map(_.toString) == Some("empty"))
             assert(table.getCell(1, 1).map(_.toString) == Some("2147483647"))
         }
+
         'test_stringCell - {
             val table = new Table(2, 2)
             val cellStr01 = new StringCell("01")
@@ -34,6 +37,7 @@ object Test extends TestSuite {
             assert(table.getCell(1, 0).map(_.toString) == Some("10"))
             assert(table.getCell(1, 1).map(_.toString) == Some("empty"))
         }
+
         'test_referenceCell - {
             val table = new Table(3, 3)
             /*ix = 0*/
